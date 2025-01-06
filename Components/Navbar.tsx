@@ -32,7 +32,7 @@ const Navbar = () => {
                 href={btnlink.link}
                 target={btnlink.newTab ? "_blank" : "_self"}
               >
-                <Button key={index} className={`${pathname === btnlink.link ? "text-orange-700 font-extrabold" : "text-white"} hover:bg-white hover:text-black transition`}>{btnlink.label}</Button>
+                <Button key={index} className={`${pathname === btnlink.link ? "text-orange-700 font-extrabold border-b-4 border-orange-700" : "text-white"} hover:bg-white hover:text-black transition`}>{btnlink.label}</Button>
               </Link>
             ))}
           </div>

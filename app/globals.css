@@ -56,16 +56,23 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
-
-@layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+    @apply font-primary;
   }
 }
+html, body {
+  height: auto; 
+  min-height: 100%; 
+  overflow: visible;
+}
+
+/* @layer base {
+
+} */
 @layer components {
   .btn, .link {
     @apply transition;
@@ -75,16 +82,16 @@
   }
   @keyframes bounce-scroll {
     0% {
-      transform: translateX(0); /* Start fully off-screen to the right */
+      transform: translateX(0);
     }
     20% {
-      transform: translateX(0); /* Move to the original position (visible) */
+      transform: translateX(0);
     }
     80% {
-      transform: translateX(20%); /* Stay in the original position (visible) */
+      transform: translateX(20%); 
     }
     100% {
-      transform: translateX(0); /* Move fully off-screen to the left */
+      transform: translateX(0); 
     }
   }
 

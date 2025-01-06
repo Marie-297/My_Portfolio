@@ -24,6 +24,8 @@ const ToggleLight = () => {
           <button
           onClick={() => setTheme("light")}
           className="p-1 ml-2 bg-slate-600 text-white rounded-full "
+          type="button"
+          title="theme-btn"
         >
             <HiOutlineSun size={20} />
           </button>
@@ -34,6 +36,8 @@ const ToggleLight = () => {
           <button
             onClick={() => setTheme("dark")}
             className="p-1 bg-blue-950 text-white rounded-full "
+            type="button"
+            title="theme-btn"
           >
             <MdOutlineNightlightRound size={20} />
           </button>

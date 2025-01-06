@@ -1,13 +1,22 @@
 import"./globals.css";
 import { Poppins } from "next/font/google"
+import { JetBrains_Mono } from "next/font/google";
 import clsx from "clsx";
 import Navbar from "@/Components/Navbar";
+import PageTransform from "@/Components/PageTransform";
 
 const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "700"],
   variable: "--font-poppins",
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-jetbrains-mono",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 })
 
 export const metadata = {
@@ -23,9 +32,9 @@ function RootLayout({ children } : Readonly<{ children: React.ReactNode }>) {
           <div className="fixed w-full z-10">
             <Navbar />
           </div>
-          <div>
+          <PageTransform>
             {children}
-          </div>
+          </PageTransform>
         </div>
       </body>
     </html>
