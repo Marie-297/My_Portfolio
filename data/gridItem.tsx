@@ -1,5 +1,4 @@
 import { skills } from '@/app/data';
-import { CardDemo } from '@/Components/ui/addonCard';
 import { AiFillAndroid, AiFillApi, AiFillDatabase, AiFillEye, AiFillHtml5 } from 'react-icons/ai';
 
 const gridItem = [
