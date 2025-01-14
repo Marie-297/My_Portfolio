@@ -11,7 +11,7 @@ const CoverPage = () => {
       <h2 className='uppercase text-center tracking-widest text-white text-md md:text-xl lg:text-2xl mb-6 font-extrabold'>Software Developer</h2>
       <TextGenerateEffect 
       className='text-center uppercase tracking-widest text-white'
-      words="Welcome to my Marie's Portfolio, Innovative Solution for a digital world." 
+      words="Welcome to Marie's Portfolio, Innovative Solution for a digital world." 
       />
       <p className='text-white font-bold italic'>Hi 👋 I'm <span className='font-extrabold text-orange-700 text-lg'>Mariama</span>, a Full Stack Software Engineer dedicated to creating impactful and user-friendly web applications.</p>
       <div className='flex flex-col lg:flex-row items-center justify-center gap-6 mt-10'>
