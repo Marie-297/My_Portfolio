@@ -16,7 +16,7 @@ const Photo = () => {
           className="w-[300px] h-[300px] lg:w-[500px]lg:h-[500px] mix-blend-lighten"
         >
           <Image
-            src="/images/portrait.JPG"
+            src="/images/code-imoji.jpg"
             priority
             alt="Marie's photo"
             fill

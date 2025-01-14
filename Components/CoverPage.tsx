@@ -8,7 +8,7 @@ import SocialLink from './SocialLink';
 const CoverPage = () => {
   return (
     <div className='text-center'>
-      <h2 className='uppercase text-center tracking-widest text-white text-xs md:text-sm lg:text-lg mb-6'>Software Developer</h2>
+      <h2 className='uppercase text-center tracking-widest text-white text-md md:text-xl lg:text-2xl mb-6 font-extrabold'>Software Developer</h2>
       <TextGenerateEffect 
       className='text-center uppercase tracking-widest text-white'
       words="Welcome to my Marie's Portfolio, Innovative Solution for a digital world." 

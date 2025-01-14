@@ -94,13 +94,26 @@ html, body {
       transform: translateX(0); 
     }
   }
+  @keyframes animate-blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 
   .animate-marquee {
     display: flex;
+    white-space: nowrap;
+    overflow: hidden;
     animation: bounce-scroll 20s linear infinite;
   }
   
   .animate-marquee:hover {
     animation-play-state: paused; 
   }
+  .blink {
+    animation: blink 1s infinite;
+  }  
 }
