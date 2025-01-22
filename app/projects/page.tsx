@@ -40,8 +40,8 @@ const ProjectsPage: React.FC = () => {
       <div className='w-[100%] p-8 mt-10 bg-zinc-700 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center'>
         {projectsData.map((project) => (
           <div key={project.id} className='rounded-lg hover:scale-105 transition-all duration-300 shadow-2xl p-6 bg-zinc-800'>
-            <figure className="relative w-full h-[140px] mx-auto aspect-square rounded-lg mb-1 overflow-hidden">
-              <img src={project.img} alt={project.title} loading="lazy" className="h-full w-full absolute rounded-lg inset-0 object-cover transition-opacity duration-500 " />
+            <figure className="relative w-full h-[105px] mx-auto aspect-square rounded-lg mb-1 overflow-hidden">
+              <img src={project.img} alt={project.title} loading="lazy" className="h-full w-full absolute rounded-lg inset-0 object-contain transition-opacity duration-500 " />
             </figure>
             <div className="flex items-center justify-between gap-2">
               <div>
