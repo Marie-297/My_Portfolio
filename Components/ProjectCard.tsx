@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   classes = "",
 }) => {
   return (
-    <div className={"relative p-4 rounded-2xl min-w-[200px] h-[200px] w-[200px] mx-auto bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors hover:scale-90 duration-300"}>
+    <div className={"relative p-4 rounded-2xl min-w-[250px] h-[200px] w-[250px] mx-auto bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors hover:scale-90 duration-300"}>
       <figure className="relative w-full h-[105px] mx-auto aspect-square rounded-lg mb-1 overflow-hidden">
            <img src={imgSrc} alt={title} loading="lazy" className="h-full w-full absolute rounded-lg inset-0 object-contain transition-opacity duration-500 " />
       </figure>
