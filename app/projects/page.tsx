@@ -1,4 +1,4 @@
-// pages/projects.tsx (or app/projects/page.tsx if using the App Router)
+
 import Project from '@/Components/Project';
 import React from 'react';
 import { FaLocationArrow } from "react-icons/fa";
@@ -11,7 +11,7 @@ interface Project {
   link?: string;
 }
 
-export const projectsData: Project[] = [
+const projectsData: Project[] = [
   { id: 1, title: "Project 1", img: "", tags: [""], link: "" },
   { id: 2, title: "Project 1", img: "", tags: [""], link: "" },
   { id: 3, title: "Project 1", img: "", tags: [""], link: "" },
