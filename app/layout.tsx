@@ -32,9 +32,11 @@ function RootLayout({ children } : Readonly<{ children: React.ReactNode }>) {
           <div className="fixed w-full z-10">
             <Navbar />
           </div>
+         <div className="pt-14">
           <PageTransform>
-            {children}
-          </PageTransform>
+              {children}
+            </PageTransform>
+         </div>
         </div>
       </body>
     </html>

@@ -68,6 +68,7 @@ html, body {
   height: auto; 
   min-height: 100%; 
   overflow: visible;
+  overflow-x: hidden;
 }
 
 /* @layer base {
@@ -116,4 +117,15 @@ html, body {
   .blink {
     animation: blink 1s infinite;
   }  
+}
+.title-1 {
+  @apply text-[14px];
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
 }
