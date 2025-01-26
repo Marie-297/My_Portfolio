@@ -134,7 +134,7 @@ const ContactPage = () => {
                     </div>
                     <div className='flex-1'>
                       <p className='text-white/60'>{item.title}</p>
-                      <a href={item.link} target="_blank" rel='noopener noreferrer' className='text-xl'>{item.description}</a>
+                      <a href={item.link} target="_blank" rel='noopener noreferrer' className='lg:text-xl text-lg'>{item.description}</a>
                     </div>
                   </li>
                 )

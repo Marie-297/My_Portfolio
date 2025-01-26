@@ -13,7 +13,7 @@ const Photo = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { delay: 3 ,duration: 1, ease: "easeInOut"}  }}
-          className="w-[200px] h-[200px] md:w-[350px] md:h-[350px] lg:w-[500px]lg:h-[500px] mix-blend-lighten"
+          className="w-[180px] h-[180px] md:w-[350px] md:h-[350px] lg:w-[500px]lg:h-[500px] mix-blend-lighten"
         >
           <Image
             src="/images/code-imoji.jpg"

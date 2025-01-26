@@ -4,9 +4,9 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div>
-      <div className='mt-10 pb-10 flex flex-col items-center gap-10 px-4'>
-        <h1 className='text-white text-5xl'>ABOUT <span className='text-orange-700 font font-extrabold text-5xl'>ME</span></h1>
+    <div className='pb-10'>
+      <div className='lg:pt-10 pt-4 flex flex-col items-center lg:gap-10 gap-6 px-4'>
+        <h1 className='text-white lg:text-5xl text-2xl'>ABOUT <span className='text-orange-700 font font-extrabold text-2xl lg:text-5xl'>ME</span></h1>
         <BentoGrid>
           {gridItem.map(({id, title, desc, icon, className, image,}) => (
             <BentoGridItem title={title} description={desc} key={id} id={id} icon={icon} className={className} image={image} />

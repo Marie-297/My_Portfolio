@@ -18,7 +18,7 @@ export const ButtonLinks = [
 
   {label: "Projects", icon: "projectIcon", link: "/projects", newTab: false},
 
-  {label: "Resume", icon: "resumeIcon", link: "/resume", newTab: true},
+  {label: "Resume", icon: "resumeIcon", link: "/resume", newTab: false},
 ]
 
 export const skills = [

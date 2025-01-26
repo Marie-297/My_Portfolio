@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="flex lg:flex-row md:flex-row flex-row-reverse items-center justify-between bg-black px-4 py-3">
+      <nav className="flex lg:flex-row md:flex-row flex-row-reverse items-center justify-between bg-black px-4 py-3 shadow-xl">
         <div className="flex items-center">
           <Image src={logo} alt="logo" width={50} height={50} />
         </div>

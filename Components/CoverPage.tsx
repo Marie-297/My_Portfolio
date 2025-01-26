@@ -8,15 +8,15 @@ import SocialLink from './SocialLink';
 const CoverPage = () => {
   return (
     <div className='text-center'>
-      <h2 className='uppercase text-center tracking-widest text-white text-md md:text-xl lg:text-2xl mb-6 font-extrabold'>Software Developer</h2>
+      <h2 className='uppercase text-center tracking-widest text-white text-md md:text-xl lg:text-2xl mb-2 lg:mb-6 font-extrabold'>Software Developer</h2>
       <TextGenerateEffect 
-      className='text-center uppercase tracking-widest text-white'
+      className='text-center uppercase lg:tracking-widest sm:-tracking-normal text-white'
       words="Hi 👋, I'm Mariama, a Full Stack Software Engineer dedicated to creating impactful and user-friendly web applications." 
       />
-      <p className='text-white font-bold italic'>Welcome to <span className='font-extrabold text-orange-700 text-lg'>Marie's Portfolio</span>, Innovative Solution for a digital world.</p>
-      <div className='flex flex-col lg:flex-row items-center justify-center gap-6 mt-10'>
+      <p className='text-white font-bold sm:text-xs italic'>Welcome to <span className='font-extrabold text-orange-700 text-lg'>Marie's Portfolio</span>, Innovative Solution for a digital world.</p>
+      <div className='flex flex-col lg:flex-row items-center justify-center lg:gap-6 gap-3 lg:mt-10 mt-6'>
         <a href="/files/CV.pdf" download="Mariama_CV.pdf">
-          <Button className='rounded-lg bg-white text-orange-700 font-extrabold text-lg transition duration-300 hover:border-orange-700'>DOWNLOAD CV
+          <Button className='rounded-lg bg-white text-orange-700 font-extrabold lg:text-lg text-sm transition duration-300 hover:border-orange-700'>DOWNLOAD CV
             <MdCloudDownload size={80} />
           </Button>
         </a>
