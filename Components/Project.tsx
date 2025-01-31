@@ -121,28 +121,42 @@ const Project = () => {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
+      const scrollDistance = getScrollDistance();
       scrollContainerRef.current.scrollBy({
-        left: -500,
+        left: -scrollDistance,
         behavior: "smooth",
       });
     }
   };
-
+  
   const scrollRight = () => {
     if (scrollContainerRef.current) {
+      const scrollDistance = getScrollDistance();
       scrollContainerRef.current.scrollBy({
-        left: 500, 
+        left: scrollDistance,
         behavior: "smooth",
       });
     }
   };
+  
+  // Function to determine scroll distance based on screen size
+  const getScrollDistance = () => {
+    const screenWidth = window.innerWidth;
+    if (screenWidth < 640) {
+      return 250; 
+    } else if (screenWidth < 1024) {
+      return 400; 
+    } else {
+      return 500;
+    }
+  };
+  
 
   return (
     <section className='projectSection' id='project'>
-      <div className='container'>
-        {/* <h2 className='headline text-white'>My PortFolio Highlights</h2> */}
-        <div className="relative h-full shadow-2xl bg-gray-500 rounded-lg p-10">
-          <h3 className="text-white text-xl font-extrabold">Frontend Mentor</h3>
+      <div className='container overflow-x-'>
+        <div className="relative h-full shadow-2xl bg-zinc-700 rounded-lg p-10 overflow-x-auto">
+          <h3 className="text-white text-xl font-extrabold font-montserrat">Frontend Mentor</h3>
           {/* Left Arrow */}
           <button
             onClick={scrollLeft}
