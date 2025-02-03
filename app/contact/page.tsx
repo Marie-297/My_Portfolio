@@ -78,10 +78,10 @@ const ContactPage = () => {
   };
 
   return (
-    <motion.section initial={{opacity: 0.5}} animate={{opacity: 1, transition: { delay: 1, duration: 0.4, ease: "easeIn"}}} className='py-6 text-white overflow-hidden'>
+    <motion.section initial={{opacity: 0.5}} animate={{opacity: 1, transition: { delay: 1, duration: 0.4, ease: "easeIn"}}} className='py-6 text-white dark:text-black overflow-hidden'>
       <div className='container'>
         {showNotification && (
-          <div className="fixed top-5 right-5 bg-orange-700 text-white p-4 rounded-lg shadow-lg z-50 font-montserrat">
+          <div className="fixed top-5 right-1/2 bg-orange-700 text-white dark:bg-black dark:text-white p-4 rounded-lg shadow-lg z-50 font-montserrat">
             {status}
           </div>
         )}
@@ -104,7 +104,7 @@ const ContactPage = () => {
                   {errors.phone && <p className="text-red-500 text-sm italic">{errors.phone}</p>}
                 </div>
               </div>
-              <Select onValueChange={(value) => setForm({ ...form, service: value })}>
+              <Select value={form.service} onValueChange={(value) => setForm({ ...form, service: value })}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -121,7 +121,7 @@ const ContactPage = () => {
               </Select>
               <Textarea className="h-[200px]" placeholder="Type your message here..." name='message' value={form.message} onChange={handleChange}></Textarea>
               {errors.message && <p className="text-red-500 text-sm italic">{errors.message}</p>}
-              <Button className="max-w-48 bg-orange-700 text-white font-semibold hover:text-orange-700 hover:bg-white hover:font-semibold" type='submit'>Send message</Button>
+              <Button className="max-w-48 bg-orange-700 text-white font-semibold dark:text-black hover:text-orange-700 hover:bg-white hover:font-semibold" type='submit'>Send Message</Button>
             </form>
           </div>
           <div className='flex-1 flex items-center lg:justify-end lg:order-none order-1 mb-8 lg:mb-0'>
@@ -129,11 +129,11 @@ const ContactPage = () => {
               {info.map((item, index) => {
                 return (
                   <li className='flex items-center gap-6' key={index}>
-                    <div className='w-[50px] lg:w-[70px] h-[50px] lg:h-[70px] bg-zinc-800 text-orange-700 rounded-md flex items-center justify-center'>
+                    <div className='w-[50px] lg:w-[70px] h-[50px] lg:h-[70px] bg-zinc-800 text-orange-700 dark:text-white rounded-md flex items-center justify-center'>
                       <a href={item.link} rel='noopener noreferrer' target="_blank" className='text-[28px]'>{item.icon}</a>
                     </div>
                     <div className='flex-1'>
-                      <p className='text-white/60'>{item.title}</p>
+                      <p className='text-black/60'>{item.title}</p>
                       <a href={item.link} target="_blank" rel='noopener noreferrer' className='lg:text-xl text-lg'>{item.description}</a>
                     </div>
                   </li>

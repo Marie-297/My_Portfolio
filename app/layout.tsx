@@ -4,6 +4,7 @@ import { JetBrains_Mono } from "next/font/google";
 import clsx from "clsx";
 import Navbar from "@/Components/Navbar";
 import PageTransform from "@/Components/PageTransform";
+import { ThemeProvider } from "next-themes";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -28,16 +29,18 @@ function RootLayout({ children } : Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={clsx(poppins.variable, "bg-background text-foreground")}>
-        <div>
-          <div className="fixed w-full z-10">
-            <Navbar />
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem ={false}>
+          <div>
+            <div className="fixed w-full z-50">
+              <Navbar />
+            </div>
+          <div className="pt-14">
+            <PageTransform>
+                {children}
+              </PageTransform>
           </div>
-         <div className="pt-14">
-          <PageTransform>
-              {children}
-            </PageTransform>
-         </div>
-        </div>
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )

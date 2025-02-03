@@ -44,11 +44,11 @@ const gridItem = [
       <div className='flex flex-col gap-4'>
         <div className='flex justify-between items-center'>
           <p>Introduction to JavaScript - </p>
-          <a href="/files/IntroJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold bg-white transition duration-300'>View Cert</Button></a>
+          <a href="/files/IntroJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
         </div>
         <div className='flex justify-between items-center'>
           <p>JavaScript Intermediate - </p>
-          <a href="/files/IntermediateJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold bg-white transition duration-300'>View Cert</Button></a>
+          <a href="/files/IntermediateJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
         </div>
       </div>
     ),

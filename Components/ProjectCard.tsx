@@ -23,16 +23,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   classes = "",
 }) => {
   return (
-    <div className={"relative p-4 rounded-2xl min-w-[250px] h-[200px] w-[250px] mx-auto bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors hover:scale-90 duration-300"}>
-      <figure className="relative w-full h-[105px] mx-auto aspect-square rounded-lg mb-1 overflow-hidden">
+    <div className={"relative p-4 rounded-2xl min-w-[250px] h-[200px] w-[250px] mx-auto bg-zinc-800 dark:bg-white hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors hover:scale-90 duration-300"}>
+      <figure className="relative w-full h-[105px] mx-auto aspect-square rounded-lg dark:bg-zinc-800 mb-1 overflow-hidden">
            <img src={imgSrc} alt={title} loading="lazy" className="h-full w-full absolute rounded-lg inset-0 object-contain transition-opacity duration-500 " />
       </figure>
       <div className="flex items-center justify-between gap-2">
         <div>
-          <h3 className="title-1 mb-1">{title}</h3>
+          <h3 className="title-1 mb-1 dark:text-orange-800 font-bold">{title}</h3>
           <div className="flex flex-wrap items-center gap-2">
             {tags.map((tag, index) => (
-              <span key={index} className="h-4 text-sm text-zinc-400 bg-zinc-50/5 grid place-items-center px-1 rounded-lg">
+              <span key={index} className="h-6 text-sm text-zinc-400 dark:bg-orange-700/10 dark:text-orange-700 bg-zinc-50/5 flex items-center justify-center px-1 rounded-lg">
                 {tag}
               </span>
             ))}

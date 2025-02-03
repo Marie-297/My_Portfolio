@@ -13,7 +13,7 @@ const SocialLink = () => {
           <Link 
             href={social.path} 
             key={index} 
-            className="border w-10 h-10 rounded-full flex items-center justify-center text-orange-700 bg-white border-orange-700 hover:bg-black hover:border-orange-700 transition-all duration-300"
+            className="border w-10 h-10 rounded-full flex items-center justify-center text-orange-700 bg-white border-orange-700 hover:bg-black dark:hover:bg-orange-700 dark:hover:text-white hover:border-orange-700 transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"
             >

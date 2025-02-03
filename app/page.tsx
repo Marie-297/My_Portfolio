@@ -4,8 +4,8 @@ import Photo from "@/Components/Photo";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-bg bg-cover bg-center lg:py-0 flex justify-center items-center lg:px-28">
-      <div className="container mx-auto">
+    <div className="min-h-screen bg-gradient-bg dark:bg-gradient-bg-dark bg-cover bg-center lg:py-0 flex justify-center items-center lg:px-28">
+      <div className="container mx-auto h-full">
         <div className="flex flex-col lg:flex-row items-center justify-center">
           <div className="order-2 lg:order-none">
             <CoverPage />

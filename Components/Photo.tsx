@@ -29,7 +29,7 @@ const Photo = () => {
         viewBox="0 0 508 508"
         xmlns="http://www.w3.org/2001/XMLSchema"
         >
-          <motion.rect x="2" y="2" rx="50" ry="50" width="504" height="504" stroke="#FF8C00" strokeWidth="4"
+          <motion.rect x="2" y="2" rx="50" ry="50" width="504" height="504" className="stroke-[#FF8C00] dark:stroke-white" strokeWidth="4"
             fill="transparent"
             strokeLinecap="round"
             strokeLinejoin="round"

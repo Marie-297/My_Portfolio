@@ -15,7 +15,7 @@ const ToggleLight = () => {
   if (!mounted) {
     return null;
   }
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const currentTheme = theme === "system" ? systemTheme || "dark" : theme || "dark";
   console.log("Current Theme:", currentTheme);
   return (
     <div>
@@ -23,25 +23,23 @@ const ToggleLight = () => {
         <div className="flex">
           <button
           onClick={() => setTheme("light")}
-          className="p-1 ml-2 bg-slate-600 text-white rounded-full "
+          className="p-1 hover:bg-black hover:text-white bg-white text-orange-700 rounded-full "
           type="button"
           title="theme-btn"
         >
-            <HiOutlineSun size={20} />
+            <MdOutlineNightlightRound size={18} />
           </button>
-          <p className="text-white-950 ml-4 font font-extrabold">Light Mode</p>
           </div>
       ) : (
         <div className="flex">
           <button
             onClick={() => setTheme("dark")}
-            className="p-1 bg-blue-950 text-white rounded-full "
+            className="p-1 hover:bg-white hover:text-black bg-orange-700 text-white rounded-full "
             type="button"
             title="theme-btn"
           >
-            <MdOutlineNightlightRound size={20} />
+            <HiOutlineSun size={18} />
           </button>
-          <p className="text-blue-950 font-extrabold ml-4">Dark Mode</p>
         </div>
       )}
     </div>

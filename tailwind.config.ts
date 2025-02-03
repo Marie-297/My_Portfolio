@@ -32,7 +32,8 @@ const config: Config = {
         cormorant: ['Cormorant', 'serif'],
       },
 			backgroundImage: {
-				'gradient-bg': 'linear-gradient(135deg, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url(/images/bg.avif)'
+				'gradient-bg': 'linear-gradient(135deg, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url(/images/bg.avif)',
+        'gradient-bg-dark': 'linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(50, 50, 50, 0.5)), url(/images/bg.avif)'
 				},
       colors: {
         border: "hsl(var(--border))",

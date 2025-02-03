@@ -155,7 +155,7 @@ const Project = () => {
   return (
     <section className='projectSection' id='project'>
       <div className='container overflow-x-'>
-        <div className="relative h-full shadow-2xl bg-zinc-700 rounded-lg p-10 overflow-x-auto">
+        <div className="relative h-full shadow-2xl dark:bg-orange-700 bg-zinc-700 rounded-lg p-10 overflow-x-auto">
           <h3 className="text-white text-xl font-extrabold font-montserrat">Frontend Mentor</h3>
           {/* Left Arrow */}
           <button
