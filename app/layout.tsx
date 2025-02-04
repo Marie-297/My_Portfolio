@@ -29,7 +29,7 @@ function RootLayout({ children } : Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={clsx(poppins.variable, "bg-background text-foreground")}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem ={false}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem ={false}>
           <div>
             <div className="fixed w-full z-50">
               <Navbar />

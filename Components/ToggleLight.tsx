@@ -15,7 +15,7 @@ const ToggleLight = () => {
   if (!mounted) {
     return null;
   }
-  const currentTheme = theme === "system" ? systemTheme || "dark" : theme || "dark";
+  const currentTheme = theme === "system" ? systemTheme : theme;
   console.log("Current Theme:", currentTheme);
   return (
     <div>

@@ -128,7 +128,7 @@ const ContactPage = () => {
             <ul className='flex flex-col gap-10'>
               {info.map((item, index) => {
                 return (
-                  <li className='flex items-center gap-6' key={index}>
+                  <li className='flex justify-center items-center gap-6' key={index}>
                     <div className='w-[50px] lg:w-[70px] h-[50px] lg:h-[70px] bg-zinc-800 text-orange-700 dark:text-white rounded-md flex items-center justify-center'>
                       <a href={item.link} rel='noopener noreferrer' target="_blank" className='text-[28px]'>{item.icon}</a>
                     </div>
