@@ -133,7 +133,7 @@ const ContactPage = () => {
                       <a href={item.link} rel='noopener noreferrer' target="_blank" className='text-[28px]'>{item.icon}</a>
                     </div>
                     <div className='flex-1'>
-                      <p className='text-black/60'>{item.title}</p>
+                      <p className='text-white/60 dark:text:black/60'>{item.title}</p>
                       <a href={item.link} target="_blank" rel='noopener noreferrer' className='lg:text-xl text-lg'>{item.description}</a>
                     </div>
                   </li>
