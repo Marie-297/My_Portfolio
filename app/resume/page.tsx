@@ -72,7 +72,7 @@ const Resumepage = () => {
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] text-white">
                     {experienceInfo.items.map((item, index) => {
                       return (
-                        <li key={index} className="bg-zinc-800 dark:bg-orange-700 h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start items-center gap-1">
+                        <li key={index} className="bg-zinc-800 dark:bg-orange-700 h-[300px] py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start items-center gap-1">
                           <span className="text-orange-600 dark:text-white font-bold italic">{item.duration}</span>
                           <h3 className="text-xl max-w-[260px] text-center lg:text-left font-semibold dark:text-black">{item.position}</h3>
                           <div>
