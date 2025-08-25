@@ -13,7 +13,7 @@ const aboutInfo = {
       fieldValue: "(+233) 249 350 297"
     },
     {fieldName: "Experience :",
-      fieldValue: "1+ Years"
+      fieldValue: "3+ Years"
     },
     {fieldName: "Nationality :",
       fieldValue: "Ghanaian"
@@ -27,6 +27,9 @@ const aboutInfo = {
     {fieldName: "LinkedIn:",
       fieldValue: <a href="https://www.linkedin.com/in/mariama-seidu-935457284/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mariama-seidu</a>
     },
+    {fieldName: "GitHub:",
+      fieldValue: <a href="https://github.com/Marie-297" target="_blank" rel="noopener noreferrer">Github.com/Marie-297</a>
+    },
   ]
 }
 
@@ -37,17 +40,17 @@ const educationInfo = {
   items: [
     {institution: "Codetrain Africa",
       degree: "Software Engineer",
-      duration: "2023 - till date",
+      duration: "Two(2) years",
       location: "Accra - Ghana"
     },
     {institution: "University of Cape-Coast",
       degree: "BSc. Actuarial Science",
-      duration: "2009 - 2013",
+      duration: "Four(4) years",
       location: "Cape-Coast - Ghana"
     },
     {institution: "I.P.M.C.",
       degree: "Certificate in MS-Word, Excel, Advanced Excel & PowerPoints",
-      duration: "2008",
+      duration: "1 year",
       location: "Takoradi - Ghana"
     } 
   ]
@@ -58,11 +61,23 @@ const experienceInfo = {
   title: "My experience",
   description: "A journey of growth and innovation, where each role shaped my skills, fueled my passion, and empowered me to create meaningful solutions.",
   items: [
-    {company: "Withheld Client",
-      position: "Freelancer",
+    {company: "Krosack",
+      position: "Independent Web Designer & Developer",
       duration: "Till Date",
       location: "Accra - Ghana",
-      responsibilities: ["Developed custom website for small businesses","Implemented responsive web designs using HTML, CSS & JavaScript"]
+      responsibilities: ["Designed and developed a fully functional e-commerce website using [ Next.js, Node.js, Prisma & Neon].","Implemented key features: seller authentication, product catalog, shopping cart, PFI request checkout, and order management.","Created a responsive UI optimized for mobile and desktop users.",]
+    },
+    {company: "WithHeld",
+      position: "Full-Stack Developer (Backend-Focused)",
+      duration: "Four(4) months",
+      location: "Accra - Ghana",
+      responsibilities: ["Collaborated with a team of 4 developers to design and build a mobile/web app that helps event planners and individuals with disabilities access event information easily.","Developed backend services and RESTful APIs using Node.js, Express, PostgreSQL, Prisma to handle user authentication, event venues, accessibility features, ratings & reviews and notifications","Implemented API integration on the frontend, consuming backend services to deliver core functionalities",]
+    },
+    {company: "Withheld Client",
+      position: "Freelancer",
+      duration: "5months",
+      location: "Accra - Ghana",
+      responsibilities: ["Developed custom website for small businesses","Implemented responsive web designs using HTML, CSS & JavaScript",]
     },
     {company: "Codetrain",
       position: "Project Based Learning",
@@ -81,7 +96,7 @@ const skills = {
       listItems: [{icon: <FaHtml5 />, name: "HTML 5"},{icon: <FaCss3 />, name: "CSS"}, {icon: <FaJs />, name: "JavaScript"}, {icon: <FaTypo3 />, name: "TypeScript"},{icon: <FaReact />, name: "ReactJS"},{icon: <SiNextdotjs />, name: "NextJS"}, {icon: <SiTailwindcss />, name: "TailwindCSS"},{icon: <FaBootstrap />, name: "BootStrap"}, {icon: <FaGithubAlt />, name: "Git & Githib"},]
     },
     {listTitle: "Backend Skills",
-      listItems: [{icon: <FaNodeJs />, name: "NodeJS"}, {icon: <SiExpress />, name: "ExpressJS"}, {icon: <SiFirebase />, name: "FireBase"},{icon: <SiMongodb />, name: "MongoDB"},{icon: <SiPostgresql />, name: "PostgreSQL"}]
+      listItems: [{icon: <FaNodeJs />, name: "NodeJS"}, {icon: <SiExpress />, name: "ExpressJS"}, {icon: <SiFirebase />, name: "FireBase"},{icon: <SiMongodb />, name: "MongoDB"},{icon: <SiPostgresql />, name: "PostgreSQL"}, {icon: <SiNextdotjs />, name: "NextJS"}]
     },
     {listTitle: "Soft Skills",
       listItems: ["Ability to learn and work quickly", "Communication and Teamwork", "Analytical & Problem Solving", "Time Management"]
