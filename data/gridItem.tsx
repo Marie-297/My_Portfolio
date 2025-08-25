@@ -30,9 +30,9 @@ const gridItem = [
     title: "Git Statistics",
     desc: (
       <div className='spacing-'>
-        <p>Total Contributions<span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>241</span></p>
+        <p>Total Contributions<span className='font-bold'>(Up to 2025)</span> - <span className='text-orange-600 font-bold'>355</span></p>
         <p>Top Languages <span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>TypeScript, JavaScript, HTML, CSS</span></p>
-        <p>Total Public Repos <span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>20</span></p>
+        <p>Total Public Repos <span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>22</span></p>
       </div>
     ),
     icon: <FaGithub className="text-6xl text-orange-600" />
