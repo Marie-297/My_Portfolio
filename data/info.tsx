@@ -61,9 +61,15 @@ const experienceInfo = {
   title: "My experience",
   description: "A journey of growth and innovation, where each role shaped my skills, fueled my passion, and empowered me to create meaningful solutions.",
   items: [
+    {company: "Build SciTech",
+      position: "Fullstack Developer (Backend-Focused)",
+      duration: "Till Date",
+      location: "Kumasi - Ghana(Remote)",
+      responsibilities: ["Built and implemented UI designs for a task activities management application using modern frontend tools.","Designed and implemented scalable backend systems using Node.js and Express.","Designed backend logic to manage task creation, updates, filtering, search, pagination and deletion.",]
+    },
     {company: "Krosack",
       position: "Independent Web Designer & Developer",
-      duration: "Till Date",
+      duration: "3 months",
       location: "Accra - Ghana",
       responsibilities: ["Designed and developed a fully functional e-commerce website using [ Next.js, Node.js, Prisma & Neon].","Implemented key features: seller authentication, product catalog, shopping cart, PFI request checkout, and order management.","Created a responsive UI optimized for mobile and desktop users.",]
     },

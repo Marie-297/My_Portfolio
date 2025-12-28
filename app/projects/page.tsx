@@ -18,7 +18,7 @@ const projectsData: Project[] = [
   { id: 4, title: "Memory-card Game", img: "/images/gridPic/memorygame.png", tags: ["HTML", "CSS", "JS"], link: "https://memorey-card-game.vercel.app/" },
   { id: 5, title: "Simple Calculator", img: "/images/gridPic/calcus.png", tags: ["HTML", "CSS", "BootStrap", "JS"], link: "https://capable-dasik-b0b0d0.netlify.app/" },
   { id: 6, title: "Business Card", img: "/images/gridPic/businessCard.png", tags: ["HTML", "CSS", "JS"], link: "https://businesscard-psi.vercel.app/" },
-  { id: 7, title: "AirBnB", img: "/images/gridPic/airbnb.png", tags: ["HTML", "CSS", "JS"], link: "https://airbnb-two-gamma.vercel.app/" },
+  { id: 7, title: "Event Accessibility Guide", img: "/images/gridPic/venue2.PNG", tags: ["HTML", "TailwindCSS", "NodeJS", "ReactJS"], link: "https://venuehubs.netlify.app/venues" },
 ];
 
 const ProjectsPage: React.FC = () => {

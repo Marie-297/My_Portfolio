@@ -30,7 +30,7 @@ const gridItem = [
     title: "Git Statistics",
     desc: (
       <div className='spacing-'>
-        <p>Total Contributions<span className='font-bold'>(Up to 2025)</span> - <span className='text-orange-600 font-bold'>355</span></p>
+        <p>Total Contributions<span className='font-bold'>(Up to 2025)</span> - <span className='text-orange-600 font-bold'>373</span></p>
         <p>Top Languages <span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>TypeScript, JavaScript, HTML, CSS</span></p>
         <p>Total Public Repos <span className='font-bold'>(2024)</span> - <span className='text-orange-600 font-bold'>22</span></p>
       </div>
@@ -43,12 +43,12 @@ const gridItem = [
     desc: (
       <div className='flex flex-col gap-4'>
         <div className='flex justify-between items-center'>
-          <p>Introduction to JavaScript - </p>
-          <a href="/files/IntroJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
+          <p className='text-sm'>Introduction to JavaScript - </p>
+          <a href="/files/IntroJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 text-sm font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
         </div>
         <div className='flex justify-between items-center'>
-          <p>JavaScript Intermediate - </p>
-          <a href="/files/IntermediateJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
+          <p className='text-sm'>JavaScript Intermediate - </p>
+          <a href="/files/IntermediateJS_Marie.pdf" target="_blank" rel="noopener noreferrer"><Button className='text-orange-600 text-sm font-bold px-2 bg-white transition duration-300'>View Cert</Button></a>
         </div>
       </div>
     ),
