@@ -12,7 +12,7 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  { id: 1, title: "School Management App", img: "/images/gridPic/school.png", tags: ["HTML", "TailwindCSS", "NextJS", "TypeScript", "NodeJS", "ReactJS"], link: "https://my-schoolapp.vercel.app/" },
+  { id: 1, title: "School Management App", img: "/images/gridPic/schoolapp.png", tags: ["HTML", "TailwindCSS", "NextJS", "TypeScript", "NodeJS", "ReactJS"], link: "https://my-schoolapp.vercel.app/" },
   { id: 2, title: "Event Accessibility Guide", img: "/images/gridPic/venue2.PNG", tags: ["HTML", "TailwindCSS", "NodeJS", "ReactJS"], link: "https://venuehubs.netlify.app/venues" },
   { id: 3, title: "LeaveMgt App", img: "/images/gridPic/leaveapp.png", tags: ["NextJS", "TailwindCSS", "TS", 'PostgreSQL', "Neon"], link: "https://leave-mgt-nine.vercel.app/" },
   { id: 4, title: "Shopping Website", img: "/images/gridPic/shoppingapp.png", tags: ["HTML","CSS","JAVASCRIPT"], link: "https://personal-shopping-carte.vercel.app/" },
