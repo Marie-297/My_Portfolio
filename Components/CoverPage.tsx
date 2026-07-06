@@ -15,7 +15,7 @@ const CoverPage = () => {
       />
       <p className='text-white dark:text-black font-bold sm:text-xs italic'>Welcome to <span className='font-extrabold text-orange-700 dark:text-white text-lg'>Marie's Portfolio</span>, Innovative Solution for a digital world.</p>
       <div className='flex flex-col lg:flex-row items-center justify-center lg:gap-6 gap-3 lg:mt-10 mt-6'>
-        <a href="/files/CV.pdf" download="Mariama_CV.pdf">
+        <a href="/files/marieCV.pdf" download="Mariama_CV.pdf">
           <Button className='rounded-lg bg-white text-orange-700 font-extrabold lg:text-lg text-sm transition duration-300 hover:border-orange-700'>DOWNLOAD CV
             <MdCloudDownload size={80} />
           </Button>
