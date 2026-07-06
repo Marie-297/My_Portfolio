@@ -12,13 +12,14 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  { id: 1, title: "LeaveMgt App", img: "/images/gridPic/leaveapp.png", tags: ["NextJS", "TailwindCSS", "TS", 'PostgreSQL', "Neon"], link: "https://leave-mgt-nine.vercel.app/" },
-  { id: 2, title: "Shopping Website", img: "/images/gridPic/shoppingapp.png", tags: ["HTML","CSS","JAVASCRIPT"], link: "https://personal-shopping-carte.vercel.app/" },
-  { id: 3, title: "Rock-paper-scissors", img: "/images/gridPic/rockpaper.png", tags: ["HTML", "CSS","JS"], link: "https://aesthetic-liger-a6da51.netlify.app/" },
-  { id: 4, title: "Memory-card Game", img: "/images/gridPic/memorygame.png", tags: ["HTML", "CSS", "JS"], link: "https://memorey-card-game.vercel.app/" },
-  { id: 5, title: "Simple Calculator", img: "/images/gridPic/calcus.png", tags: ["HTML", "CSS", "BootStrap", "JS"], link: "https://capable-dasik-b0b0d0.netlify.app/" },
-  { id: 6, title: "Business Card", img: "/images/gridPic/businessCard.png", tags: ["HTML", "CSS", "JS"], link: "https://businesscard-psi.vercel.app/" },
-  { id: 7, title: "Event Accessibility Guide", img: "/images/gridPic/venue2.PNG", tags: ["HTML", "TailwindCSS", "NodeJS", "ReactJS"], link: "https://venuehubs.netlify.app/venues" },
+  { id: 1, title: "School Management App", img: "/images/gridPic/school.png", tags: ["HTML", "TailwindCSS", "NextJS", "TypeScript", "NodeJS", "ReactJS"], link: "https://my-schoolapp.vercel.app/" },
+  { id: 2, title: "Event Accessibility Guide", img: "/images/gridPic/venue2.PNG", tags: ["HTML", "TailwindCSS", "NodeJS", "ReactJS"], link: "https://venuehubs.netlify.app/venues" },
+  { id: 3, title: "LeaveMgt App", img: "/images/gridPic/leaveapp.png", tags: ["NextJS", "TailwindCSS", "TS", 'PostgreSQL', "Neon"], link: "https://leave-mgt-nine.vercel.app/" },
+  { id: 4, title: "Shopping Website", img: "/images/gridPic/shoppingapp.png", tags: ["HTML","CSS","JAVASCRIPT"], link: "https://personal-shopping-carte.vercel.app/" },
+  { id: 5, title: "Rock-paper-scissors", img: "/images/gridPic/rockpaper.png", tags: ["HTML", "CSS","JS"], link: "https://aesthetic-liger-a6da51.netlify.app/" },
+  { id: 6, title: "Memory-card Game", img: "/images/gridPic/memorygame.png", tags: ["HTML", "CSS", "JS"], link: "https://memorey-card-game.vercel.app/" },
+  { id: 7, title: "Simple Calculator", img: "/images/gridPic/calcus.png", tags: ["HTML", "CSS", "BootStrap", "JS"], link: "https://capable-dasik-b0b0d0.netlify.app/" },
+  { id: 8, title: "Business Card", img: "/images/gridPic/businessCard.png", tags: ["HTML", "CSS", "JS"], link: "https://businesscard-psi.vercel.app/" },
 ];
 
 const ProjectsPage: React.FC = () => {

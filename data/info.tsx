@@ -1,5 +1,5 @@
 import { FaUserGraduate } from "react-icons/fa";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaTypo3, FaGithubAlt, FaBootstrap } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaTypo3, FaGithubAlt, FaBootstrap, FaBriefcase } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs, SiExpress, SiFirebase, SiMongodb, SiPostgresql } from "react-icons/si";
 
 const aboutInfo = {
@@ -57,13 +57,13 @@ const educationInfo = {
 } 
 
 const experienceInfo = {
-  icon: "",
+  icon: <FaBriefcase />,
   title: "My experience",
   description: "A journey of growth and innovation, where each role shaped my skills, fueled my passion, and empowered me to create meaningful solutions.",
   items: [
     {company: "Build SciTech",
       position: "Fullstack Developer (Backend-Focused)",
-      duration: "Till Date",
+      duration: "6 months",
       location: "Kumasi - Ghana(Remote)",
       responsibilities: ["Built and implemented UI designs for a task activities management application using modern frontend tools.","Designed and implemented scalable backend systems using Node.js and Express.","Designed backend logic to manage task creation, updates, filtering, search, pagination and deletion.",]
     },
@@ -78,6 +78,12 @@ const experienceInfo = {
       duration: "Four(4) months",
       location: "Accra - Ghana",
       responsibilities: ["Collaborated with a team of 4 developers to design and build a mobile/web app that helps event planners and individuals with disabilities access event information easily.","Developed backend services and RESTful APIs using Node.js, Express, PostgreSQL, Prisma to handle user authentication, event venues, accessibility features, ratings & reviews and notifications","Implemented API integration on the frontend, consuming backend services to deliver core functionalities",]
+    },
+    {company: "WithHeld",
+      position: "Full-Stack Developer",
+      duration: "Three(3) months",
+      location: "Codetrain, Accra - Ghana",
+      responsibilities: ["Built backend logic using Next.js API routes (server-side functions) and Node.js to handle leave management operations.","Designed and implemented RESTful API endpoints for creating, updating, approving, and rejecting leave requests.","Implemented role-based access control (RBAC) to ensure secure separation of employee and manager actions.","Designed and managed database schemas using Prisma ORM with PostgreSQL (Neon).","Handled validation, error handling, and secure data processing on server-side endpoints.","Collaborated with frontend developers to integrate backend services into the user interface, ensuring seamless user experience.",]
     },
     {company: "Withheld Client",
       position: "Freelancer",
